@@ -15,5 +15,6 @@
 10. [Security និង Monitoring](10-security-monitoring/lesson.md)
 11. [Troubleshooting និង System Administration](11-troubleshooting-system-administration/lesson.md)
 12. [Final Projects](12-final-projects/README.md)
+13. [Linux Internals កម្រិតខ្ពស់](13-advanced-linux-internals/README.md)
 
 ចាប់ផ្ដើមពី [មេរៀនទី ១](01-introduction/lesson.md)។ អនុវត្តក្នុង Ubuntu/Debian VM ឬ WSL2 ហើយប្រើតែប្រព័ន្ធដែលអ្នកមានសិទ្ធិប្រើប្រាស់។
