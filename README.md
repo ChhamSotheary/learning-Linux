@@ -23,9 +23,10 @@
 15. [Linux Networking កម្រិតខ្ពស់](15-advanced-networking/README.md)
 16. [Storage និង Filesystem Internals](16-storage-and-filesystems/README.md)
 17. [Linux Operations និង Reliability](17-linux-operations-and-reliability/README.md)
+18. [Linux ក្រោយឆាក៖ Internals ដែលវគ្គទូទៅរំលង](18-linux-under-the-hood/README.md)
 
 ## ចប់ផ្លូវរៀននេះមានន័យអ្វី?
 
-បញ្ចប់មេរៀន ១–១៧ និង capstone គឺបញ្ចប់កម្មវិធីសិក្សាដែលបានរៀបចំនៅក្នុង repository នេះ។ Linux មានឯកទេសជាច្រើនទៀត ដូចជា kernel development, cloud, embedded និង security research ដែលអាចបន្តរៀនតាមគោលដៅការងារ។
+បញ្ចប់មេរៀន ១–១៨ និង capstone គឺបញ្ចប់កម្មវិធីសិក្សាដែលបានរៀបចំនៅក្នុង repository នេះ។ Linux មានឯកទេសជាច្រើនទៀត ដូចជា kernel development, cloud, embedded និង security research ដែលអាចបន្តរៀនតាមគោលដៅការងារ។
 
 ចាប់ផ្ដើមពី [មេរៀនទី ១](01-introduction/lesson.md)។ អនុវត្តក្នុង Ubuntu/Debian VM ឬ WSL2 ហើយប្រើតែប្រព័ន្ធដែលអ្នកមានសិទ្ធិប្រើប្រាស់។
