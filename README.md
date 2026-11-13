@@ -12,7 +12,7 @@
 7. [Networking Fundamentals](07-networking-fundamentals/lesson.md)
 8. [Bash Scripting និង Automation](08-bash-scripting-automation/lesson.md)
 9. [Disk, Filesystem និង Backup](09-disk-filesystem-backup/lesson.md)
-10. Security និង Monitoring
+10. [Security និង Monitoring](10-security-monitoring/lesson.md)
 11. Troubleshooting និង System Administration
 12. Final Projects
 
