@@ -3,6 +3,7 @@
 វគ្គសិក្សា Linux ជាភាសាខ្មែរ សម្រាប់អ្នកចាប់ផ្ដើមរហូតដល់កម្រិតខ្ពស់។
 
 ## ផែនទីមេរៀន
+
 1. [សេចក្ដីផ្ដើមអំពី Linux](01-introduction/lesson.md)
 2. [Terminal និង Command Line](02-terminal-command-line/lesson.md)
 3. [Filesystem និងការគ្រប់គ្រងឯកសារ](03-filesystem-file-management/lesson.md)
@@ -16,5 +17,13 @@
 11. [Troubleshooting និង System Administration](11-troubleshooting-system-administration/lesson.md)
 12. [Final Projects](12-final-projects/README.md)
 13. [Linux Internals កម្រិតខ្ពស់](13-advanced-linux-internals/README.md)
+14. [Boot, Kernel និង Driver](14-kernel-boot-and-drivers/README.md)
+15. [Linux Networking កម្រិតខ្ពស់](15-advanced-networking/README.md)
+16. [Storage និង Filesystem Internals](16-storage-and-filesystems/README.md)
+17. [Linux Operations និង Reliability](17-linux-operations-and-reliability/README.md)
+
+## ចប់ផ្លូវរៀននេះមានន័យអ្វី?
+
+បញ្ចប់មេរៀន ១–១៧ និង capstone គឺបញ្ចប់កម្មវិធីសិក្សាដែលបានរៀបចំនៅក្នុង repository នេះ។ Linux មានឯកទេសជាច្រើនទៀត ដូចជា kernel development, cloud, embedded និង security research ដែលអាចបន្តរៀនតាមគោលដៅការងារ។
 
 ចាប់ផ្ដើមពី [មេរៀនទី ១](01-introduction/lesson.md)។ អនុវត្តក្នុង Ubuntu/Debian VM ឬ WSL2 ហើយប្រើតែប្រព័ន្ធដែលអ្នកមានសិទ្ធិប្រើប្រាស់។
