@@ -13,7 +13,7 @@
 8. [Bash Scripting និង Automation](08-bash-scripting-automation/lesson.md)
 9. [Disk, Filesystem និង Backup](09-disk-filesystem-backup/lesson.md)
 10. [Security និង Monitoring](10-security-monitoring/lesson.md)
-11. Troubleshooting និង System Administration
+11. [Troubleshooting និង System Administration](11-troubleshooting-system-administration/lesson.md)
 12. Final Projects
 
 ចាប់ផ្ដើមពី [មេរៀនទី ១](01-introduction/lesson.md)។ អនុវត្តក្នុង Ubuntu/Debian VM ឬ WSL2 ហើយប្រើតែប្រព័ន្ធដែលអ្នកមានសិទ្ធិប្រើប្រាស់។
