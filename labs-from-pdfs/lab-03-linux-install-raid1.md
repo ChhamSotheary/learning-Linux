@@ -109,14 +109,28 @@ watch cat /proc/mdstat
 
 បើស្ថានភាពមិនច្បាស់ សូមឈប់ មើល mdadm --detail និងកំណត់ហេតុ ហើយ restore snapshot។ កុំសាក command ផ្សេងៗលើ array ដែលអ្នកមិនទាន់ស្គាល់។
 
-## ៩. ការប្រៀបធៀប RAID levels
+## ៩. ស្គាល់ RAID levels ផ្សេងៗ
 
-- **RAID 1**៖ mirror; អាចប្រើ disk 2 ឬច្រើនតាម implementation; usable capacity តាមសមត្ថភាព mirror ដែលអនុវត្តបាន។
-- **RAID 5**៖ ត្រូវការ disk យ៉ាងតិច 3; parity ចែកចាយ; usable capacity ប្រហែលទំហំ disk តូចបំផុត × (ចំនួន disk − 1)។
-- **RAID 6**៖ ត្រូវការ disk យ៉ាងតិច 4; parity ពីរ; អាចអត់ទ្រាំ failure ច្រើនជាង RAID 5 ក្នុងលក្ខខណ្ឌសមស្រប។
-- **RAID 10**៖ ត្រូវការ disk យ៉ាងតិច 4 ក្នុងការរៀបចំទូទៅ; combine mirror និង striping; usable capacity ជាទូទៅប្រហែលពាក់កណ្តាល មុន overhead។
+RAID 1 ដែលយើងដំឡើងក្នុង Lab នេះគឺ mirror។ RAID ផ្សេងៗប្រើ striping និង parity តាមរបៀបខុសគ្នា៖
 
-ចំនួនអតិបរមានៃ disk failure ដែល array អាចអត់ទ្រាំបាន អាស្រ័យលើ layout និងទីតាំង disk ដែលខូច។ សូមកុំយកសេចក្តីសង្ខេបខាងលើជំនួសឯកសារ design របស់ storage system ពិត។
+~~~text
+RAID 0  striping:  Disk 1 [A1][B1]   Disk 2 [A2][B2]   លឿន; មិនទ្រាំ disk ខូច
+RAID 1  mirror:    Disk 1 [ A ][ B ] Disk 2 [ A ][ B ] ចម្លងទិន្នន័យ; usable ~ ពាក់កណ្តាល
+RAID 5  parity:    ចែក data + parity លើ disks យ៉ាងតិច 3; ទ្រាំ disk ខូចមួយ
+RAID 6  parity x2: ចែក data + parity ពីរលើ disks យ៉ាងតិច 4; ទ្រាំ disk ខូចពីរ
+RAID 10 mirror+stripe: mirror pairs យ៉ាងតិច 4 disks; usable ~ ពាក់កណ្តាល
+~~~
+
+ឧទាហរណ៍ ប្រើ disks 10 GB ទំហំស្មើគ្នា៖
+
+- RAID 1 មានពីរ disks → ប្រហែល 10 GB usable ព្រោះរក្សាច្បាប់ចម្លងដូចគ្នា។
+- RAID 5 មានបី disks → ប្រហែល 20 GB usable ព្រោះទំហំមួយ disk សម្រាប់ parity។
+- RAID 6 មានបួន disks → ប្រហែល 20 GB usable ព្រោះទំហំពីរ disks សម្រាប់ parity។
+- RAID 10 មានបួន disks → ប្រហែល 20 GB usable ព្រោះទំហំប្រហែលពាក់កណ្តាលសម្រាប់ mirror។
+
+RAID 10 អាចទ្រាំ disk ខូចច្រើនជាងមួយ ប្រសិនបើមិនខូចទាំងពីរក្នុង mirror pair ដូចគ្នា។ RAID 0 មិនមាន redundancy ទេ; disk មួយខូចអាចធ្វើឱ្យទិន្នន័យទាំង array មិនអាចប្រើបាន។ សមត្ថភាពជាក់ស្តែងអាស្រ័យលើ implementation, layout និង overhead។
+
+សម្រាប់រូបភាព ASCII លម្អិត និងការពន្យល់អំពីចំនួន disk, usable capacity និងចំណុចខ្សោយនៃ RAID នីមួយៗ សូមមើល [RAID Levels៖ មគ្គុទ្ទេសក៍ជារូបភាព](raid-levels-visual-guide.md)។
 
 ## ១០. RAID មិនមែនជា Backup
 
