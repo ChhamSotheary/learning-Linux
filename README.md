@@ -25,6 +25,10 @@
 17. [Linux Operations និង Reliability](17-linux-operations-and-reliability/README.md)
 18. [Linux ក្រោយឆាក៖ Internals ដែលវគ្គទូទៅរំលង](18-linux-under-the-hood/README.md)
 
+## Lab អនុវត្តពីឯកសារសិក្សា
+
+មានសំណុំ lab ដាច់ដោយឡែក ដែលរៀបចំជាភាសាខ្មែរ និងផ្អែកលើឯកសារសិក្សា៖ [ចាប់ផ្តើម Linux, Disk/Partition/Filesystem និង RAID 1](labs-from-pdfs/README.md)។ Lab ទាំងនេះប្រើ RHEL 9 ឬ distro ជំនួសដែលមានលក្ខណៈជិតស្និទ្ធ ក្នុង VM; វាជាផ្លូវអនុវត្តដាច់ដោយឡែកពីមេរៀនសំខាន់ដែលប្រើ Ubuntu/Debian។
+
 ## ចប់ផ្លូវរៀននេះមានន័យអ្វី?
 
 បញ្ចប់មេរៀន ១–១៨ និង capstone គឺបញ្ចប់កម្មវិធីសិក្សាដែលបានរៀបចំនៅក្នុង repository នេះ។ Linux មានឯកទេសជាច្រើនទៀត ដូចជា kernel development, cloud, embedded និង security research ដែលអាចបន្តរៀនតាមគោលដៅការងារ។
