@@ -7,7 +7,7 @@
 2. [Terminal និង Command Line](02-terminal-command-line/lesson.md)
 3. [Filesystem និងការគ្រប់គ្រងឯកសារ](03-filesystem-file-management/lesson.md)
 4. [Users, Groups និង Permissions](04-users-groups-permissions/lesson.md)
-5. Package Management
+5. [Package Management](05-package-management/lesson.md)
 6. Processes, Services និង Logs
 7. Networking Fundamentals
 8. Bash Scripting និង Automation
