@@ -10,7 +10,7 @@
 5. [Package Management](05-package-management/lesson.md)
 6. [Processes, Services និង Logs](06-processes-services-logs/lesson.md)
 7. [Networking Fundamentals](07-networking-fundamentals/lesson.md)
-8. Bash Scripting និង Automation
+8. [Bash Scripting និង Automation](08-bash-scripting-automation/lesson.md)
 9. Disk, Filesystem និង Backup
 10. Security និង Monitoring
 11. Troubleshooting និង System Administration
