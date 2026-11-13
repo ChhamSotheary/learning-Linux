@@ -5,4 +5,4 @@
 3. [Capacity, alert និង SLO](lesson-03-capacity-alerting.md)
 4. [Change management និង runbook](lesson-04-change-runbooks.md)
 
-នេះជាម៉ូឌុលចុងក្រោយក្នុង roadmap បច្ចុប្បន្ន។ បន្ទាប់ពីរៀនម៉ូឌុល ១–១៧ និង capstone អ្នកបានបញ្ចប់ស៊េរីដែលបានរៀបចំក្នុង repo នេះ; Linux នៅតែមានឯកទេសបន្ថែមដែលអាចរៀនបន្តតាមតម្រូវការងារ។
+បន្ទាប់ពីម៉ូឌុលនេះ សូមធ្វើ [Capstone: Linux Service Production Readiness](capstone.md)។ សម្រាប់ internals កាន់តែជ្រៅ សូមបន្តទៅ [ម៉ូឌុលទី ១៨៖ Linux ក្រោយឆាក](../18-linux-under-the-hood/README.md)។
