@@ -6,7 +6,7 @@
 1. [សេចក្ដីផ្ដើមអំពី Linux](01-introduction/lesson.md)
 2. [Terminal និង Command Line](02-terminal-command-line/lesson.md)
 3. [Filesystem និងការគ្រប់គ្រងឯកសារ](03-filesystem-file-management/lesson.md)
-4. Users, Groups និង Permissions
+4. [Users, Groups និង Permissions](04-users-groups-permissions/lesson.md)
 5. Package Management
 6. Processes, Services និង Logs
 7. Networking Fundamentals
