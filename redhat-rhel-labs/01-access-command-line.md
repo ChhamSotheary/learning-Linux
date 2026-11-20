@@ -42,39 +42,21 @@ Prompt មិនដូចគ្នាទាំងអស់ទេ។ សញ្ញ
 
 ```bash
 whoami
-```
-
-បង្ហាញឈ្មោះ user ដែលកំពុង login។
-
-```bash
 pwd
-```
-
-បង្ហាញទីតាំង directory បច្ចុប្បន្ន (Print Working Directory)។
-
-```bash
 hostname
-```
-
-បង្ហាញឈ្មោះម៉ាស៊ីន។
-
-```bash
 date
-```
-
-បង្ហាញកាលបរិច្ឆេទ និងម៉ោងរបស់ប្រព័ន្ធ។
-
-```bash
 echo "Hello Linux"
 ```
 
-បង្ហាញអត្ថបទ Hello Linux នៅលើ Terminal។
+- `whoami` បង្ហាញឈ្មោះ user ដែលកំពុង login។
+- `pwd` បង្ហាញទីតាំង directory បច្ចុប្បន្ន។
+- `hostname` បង្ហាញឈ្មោះម៉ាស៊ីន។
+- `date` បង្ហាញកាលបរិច្ឆេទ និងម៉ោងរបស់ប្រព័ន្ធ។
+- `echo` បង្ហាញអត្ថបទទៅលើ Terminal។
 
-លទ្ធផលពិតប្រាកដរបស់ `whoami`, `pwd`, `hostname` និង `date` អាស្រ័យលើការកំណត់ VM របស់អ្នក។
+លទ្ធផលពិតប្រាកដអាស្រ័យលើការកំណត់ VM របស់អ្នក។
 
 ## ៤. ស្គាល់ Shell
-
-រត់៖
 
 ```bash
 echo "$SHELL"
@@ -83,8 +65,6 @@ ps -p "$$" -o comm=
 
 - `echo "$SHELL"` បង្ហាញ shell ដែលបានកំណត់ក្នុង environment។
 - `ps -p "$$" -o comm=` បង្ហាញឈ្មោះ process របស់ shell ដែលកំពុងដំណើរការ។
-
-នៅក្នុង RHEL ជាទូទៅអ្នកនឹងជួប Bash ប៉ុន្តែអាចមាន shell ផ្សេងទៀត។
 
 ## ៥. រចនាសម្ព័ន្ធ Command
 
@@ -116,7 +96,7 @@ date
 echo "I am learning Linux"
 ```
 
-សំណួរអនុវត្ត៖
+សំណួរ៖
 
 1. តើ command មួយណាបង្ហាញឈ្មោះ user?
 2. តើ command មួយណាបង្ហាញទីតាំងបច្ចុប្បន្ន?
@@ -136,6 +116,6 @@ Lab នេះប្រើតែ command សម្រាប់អានព័ត�
 
 ## សង្ខេប
 
-Command Line អនុញ្ញាតឱ្យអ្នកគ្រប់គ្រង Linux តាមរយៈ command។ Terminal ជាផ្ទាំងទទួល/បង្ហាញអត្ថបទ ខណៈ Shell ជាអ្នកបកស្រាយ command។ `whoami`, `pwd`, `hostname`, `date` និង `echo` ជា command ដំបូងដែលគួរចេះ។
+Command Line អនុញ្ញាតឱ្យអ្នកគ្រប់គ្រង Linux តាមរយៈ command។ Terminal ជាផ្ទាំងទទួល/បង្ហាញអត្ថបទ ខណៈ Shell ជាអ្នកបកស្រាយ command។
 
-**Lab បន្ទាប់៖** [Lab ២ — គ្រប់គ្រង Files និង Directories](README.md)។
+**Lab បន្ទាប់៖** [Lab ២ — គ្រប់គ្រង Files និង Directories](02-manage-files-directories.md)។
