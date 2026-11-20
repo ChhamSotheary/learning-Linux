@@ -29,6 +29,10 @@
 
 មានសំណុំ lab ដាច់ដោយឡែក ដែលរៀបចំជាភាសាខ្មែរ និងផ្អែកលើឯកសារសិក្សា៖ [ចាប់ផ្តើម Linux, Disk/Partition/Filesystem និង RAID 1](labs-from-pdfs/README.md)។ Lab ទាំងនេះប្រើ RHEL 9 ឬ distro ជំនួសដែលមានលក្ខណៈជិតស្និទ្ធ ក្នុង VM; វាជាផ្លូវអនុវត្តដាច់ដោយឡែកពីមេរៀនសំខាន់ដែលប្រើ Ubuntu/Debian។
 
+## Lab RHEL ចំនួន ១៤
+
+ចង់អនុវត្តតាមបញ្ជី Lab ក្នុង Red Hat? ចូលទៅកាន់ [មេរៀន RHEL ១៤ Lab ជាភាសាខ្មែរ](redhat-rhel-labs/README.md)។ ចាប់ផ្ដើមពី [Lab ១៖ ចូលប្រើ Command Line](redhat-rhel-labs/01-access-command-line.md)។
+
 ## ចប់ផ្លូវរៀននេះមានន័យអ្វី?
 
 បញ្ចប់មេរៀន ១–១៨ និង capstone គឺបញ្ចប់កម្មវិធីសិក្សាដែលបានរៀបចំនៅក្នុង repository នេះ។ Linux មានឯកទេសជាច្រើនទៀត ដូចជា kernel development, cloud, embedded និង security research ដែលអាចបន្តរៀនតាមគោលដៅការងារ។
