@@ -6,26 +6,24 @@
 
 ## ផែនទី Lab ទាំង ១៤
 
-| ល.រ | ចំណងជើងជាភាសាខ្មែរ | ចំណុចសំខាន់ |
+| ល.រ | ចំណងជើងជាភាសាខ្មែរ | មេរៀន |
 |---:|---|---|
-| ១ | [ចូលប្រើ Command Line](01-access-command-line.md) | ចូល Terminal, ស្គាល់ shell និងរត់ command ដំបូង |
-| ២ | គ្រប់គ្រង Files និង Directories | បង្កើត មើល ចម្លង ផ្លាស់ទី និងស្វែងរកឯកសារ |
-| ៣ | ស្វែងរកជំនួយសម្រាប់ Command Line | ប្រើ man, --help, info និង help |
-| ៤ | កែសម្រួលអត្ថបទ និងប្រើ Pipelines | ប្រើ editor, grep, sort, wc និង pipe |
-| ៥ | គ្រប់គ្រង Local Users និង Groups | ពិនិត្យ និងគ្រប់គ្រង accounts/groups |
-| ៦ | គ្រប់គ្រង File Permissions | អាន/កែ mode, owner និង group |
-| ៧ | តាមដាន និងគ្រប់គ្រង Processes | សង្កេត និងគ្រប់គ្រង process |
-| ៨ | គ្រប់គ្រង Services និង Daemons | ពិនិត្យ service ជាមួយ systemctl |
-| ៩ | កំណត់រចនាសម្ព័ន្ធ និងការពារ SSH | SSH connection, keys និងការកំណត់សុវត្ថិភាព |
-| ១០ | វិភាគ និងរក្សាទុក Logs | អាន system logs និង journal |
-| ១១ | គ្រប់គ្រង Network Configuration | ពិនិត្យ IP, routes និង DNS |
-| ១២ | បង្រួម និងផ្ទេរ Files | ប្រើ tar, gzip និងការផ្ទេរឯកសារ |
-| ១៣ | គ្រប់គ្រង Software ដោយ DNF | ស្វែងរក ដំឡើង និងធ្វើបច្ចុប្បន្នភាព packages |
-| ១៤ | ចូលប្រើ Linux File Systems | ស្គាល់ filesystem, mount និង disk usage |
+| ១ | ចូលប្រើ Command Line | [បើកមេរៀន](01-access-command-line.md) |
+| ២ | គ្រប់គ្រង Files និង Directories | [បើកមេរៀន](02-manage-files-directories.md) |
+| ៣ | ស្វែងរកជំនួយសម្រាប់ Command Line | [បើកមេរៀន](03-command-line-help.md) |
+| ៤ | កែសម្រួលអត្ថបទ និងប្រើ Pipelines | [បើកមេរៀន](04-edit-text-pipelines.md) |
+| ៥ | គ្រប់គ្រង Local Users និង Groups | [បើកមេរៀន](05-local-users-groups.md) |
+| ៦ | គ្រប់គ្រង File Permissions | [បើកមេរៀន](06-file-permissions.md) |
+| ៧ | តាមដាន និងគ្រប់គ្រង Processes | [បើកមេរៀន](07-processes.md) |
+| ៨ | គ្រប់គ្រង Services និង Daemons | [បើកមេរៀន](08-services-daemons.md) |
+| ៩ | កំណត់រចនាសម្ព័ន្ធ និងការពារ SSH | [បើកមេរៀន](09-ssh-security.md) |
+| ១០ | វិភាគ និងរក្សាទុក Logs | [បើកមេរៀន](10-logs.md) |
+| ១១ | គ្រប់គ្រង Network Configuration | [បើកមេរៀន](11-network-configuration.md) |
+| ១២ | បង្រួម និងផ្ទេរ Files | [បើកមេរៀន](12-archive-transfer.md) |
+| ១៣ | គ្រប់គ្រង Software ដោយ DNF | [បើកមេរៀន](13-dnf-software.md) |
+| ១៤ | ចូលប្រើ Linux File Systems | [បើកមេរៀន](14-linux-filesystems.md) |
 
 ## តំណភ្ជាប់ទៅមេរៀនក្នុង Repository
-
-មេរៀនខាងក្រោមមានខ្លឹមសារពាក់ព័ន្ធរួចហើយនៅក្នុងវគ្គសិក្សានេះ៖
 
 - [Terminal និង Command Line](../02-terminal-command-line/lesson.md)
 - [Filesystem និងការគ្រប់គ្រងឯកសារ](../03-filesystem-file-management/lesson.md)
